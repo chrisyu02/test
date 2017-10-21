@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.csf.datamonitor.dao.BaseStockDao">
+	<select id="getBaseStocks" resultType="com.csf.datamonitor.entity.BaseStock">
+		SELECT * FROM base_stock
+		<if test="id!=null">
+			WHERE id=#{id}
+		</if>
+		limit #{offset}, #{limit}
+	</select>
+</mapper> 

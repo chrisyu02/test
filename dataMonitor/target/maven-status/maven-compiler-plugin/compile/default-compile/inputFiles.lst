@@ -1,0 +1,11 @@
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\base\RespObj.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\AmazonS3Helper.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\Constants.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\dao\BaseStockDao.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\service\BaseStockService.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\dao\S3FileDownloadDao.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\entity\BaseStock.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\service\S3FileDownloadService.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\base\RespType.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\PropertyConfigurer.java
+D:\workspace\dataMonitor\src\main\java\com\csf\datamonitor\common\BaseServiceImpl.java
