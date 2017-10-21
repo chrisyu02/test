@@ -25,6 +25,7 @@ public class PropertyConfigurer extends PropertyPlaceholderConfigurer{
 			log.debug("[key] : " + keyStr);
 			ctxPropertiesMap.put(keyStr, value);
 		}
+		System.out.println("");
 	}
 	public static String getContextProperty(String name){
 		return ctxPropertiesMap.get(name);
